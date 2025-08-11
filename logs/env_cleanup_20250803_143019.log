@@ -1,0 +1,3 @@
+🔍 Scanne nach veralteten .env.enc-Dateien in /opt/coreflow ...
+🗑️ Lösche: /opt/coreflow/.env.enc
+✅ Bereinigung abgeschlossen.

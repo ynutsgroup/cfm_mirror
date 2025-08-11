@@ -1,0 +1,8 @@
+=== Mirror Script gestartet am Mo 11. Aug 22:19:57 CEST 2025 ===
+Lade verschlüsselte .env via envloader...
+/opt/coreflow/audit/cfm_mirror.sh: line 27: 🔐: command not found
+/opt/coreflow/audit/cfm_mirror.sh: line 28: 🔑: command not found
+/opt/coreflow/audit/cfm_mirror.sh: line 29: ✅: command not found
+/opt/coreflow/audit/cfm_mirror.sh: line 30: ✅: command not found
+FEHLER: ENV-Load via envloader.py fehlgeschlagen
+=== Mirror Script beendet ===

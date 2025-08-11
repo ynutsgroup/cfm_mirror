@@ -1,0 +1,4 @@
+=== Mirror Script gestartet am Mo 11. Aug 21:42:53 CEST 2025 ===
+python3: can't open file '/opt/coreflow/utils/decrypt_env.py': [Errno 2] No such file or directory
+FEHLER: Entschlüsseln der Umgebungsvariablen fehlgeschlagen
+=== Mirror Script beendet ===

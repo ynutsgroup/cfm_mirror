@@ -1,0 +1,12 @@
+{
+    "timestamp": "2025-08-06T20:00:10+02:00",
+    "target_dir": "/opt/coreflow/test_scripts",
+    "success": 0,
+    "failed": 0,
+    "recovered": 2,
+    "critical_failures": 0,
+    "pre_validation_warnings": 2,
+    "processing_time_sec": 2,
+    "backup_location": "/opt/coreflow/backups/20250806_200008",
+    "log_file": "/opt/coreflow/logs/autofix/gpt_fix_20250806_200008.log"
+}

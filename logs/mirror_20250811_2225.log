@@ -1,0 +1,65 @@
+=== Mirror Script gestartet am Mo 11. Aug 22:25:57 CEST 2025 ===
+Lade verschlüsselte .env via envloader...
+/opt/coreflow/audit/cfm_mirror.sh: line 26: 🔐: command not found
+/opt/coreflow/audit/cfm_mirror.sh: line 27: 🔑: command not found
+/opt/coreflow/audit/cfm_mirror.sh: line 28: ✅: command not found
+Initialisiere neues Git-Repository in /opt/coreflow/gitmirror
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /opt/coreflow/gitmirror/.git/
+Starte Synchronisation...
+Sync: Core
+sending incremental file list
+created directory /opt/coreflow/gitmirror/core
+./
+utils/
+utils/audit_logger.py
+utils/__pycache__/
+utils/__pycache__/audit_logger.cpython-312.pyc
+
+sent 8.939 bytes  received 120 bytes  18.118,00 bytes/sec
+total size is 8.625  speedup is 0,95
+Sync: Config
+sending incremental file list
+created directory /opt/coreflow/gitmirror/config
+./
+.env
+.env.enc
+autofix.cfg
+coreflow.env
+
+sent 6.052 bytes  received 148 bytes  12.400,00 bytes/sec
+total size is 5.665  speedup is 0,91
+Sync: Env
+'/opt/coreflow/config/.env.enc' -> '/opt/coreflow/gitmirror/config/.env.enc'
+Sync: Audit
+'/opt/coreflow/audit/audit.jsonl' -> '/opt/coreflow/gitmirror/audit/audit.jsonl'
+cp: cannot create regular file '/opt/coreflow/gitmirror/audit/audit.jsonl': No such file or directory
+Sync: Logs
+sending incremental file list
+created directory /opt/coreflow/gitmirror/logs
+./
+audit_export.jsonl
+audit_report_20250811_1906.md
+cron_cleanup.log
+env_cleanup_20250803_143019.log
+fixer.log
+git_sync.log
+hash_check.log
+healthcheck.log
+master_sync.log
+mirror_20250811_2142.log
+mirror_20250811_2156.log
+mirror_20250811_2159.log
+mirror_20250811_2213.log
+mirror_20250811_2214.log
+mirror_20250811_2215.log
+mirror_20250811_2217.log

@@ -1,0 +1,93 @@
+Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/trigger_watchdog.py", line 21, in <module>
+    from watchdog.observers import Observer
+ModuleNotFoundError: No module named 'watchdog'
+2025-08-04T19:54:18Z | INFO     | 🚀 CoreFlow Watchdog v2.1.0 gestartet
+2025-08-04T19:54:18Z | INFO     | Service-ID: CF-AUTONOMOUS-WD-001
+2025-08-04T19:54:18Z | INFO     | Beobachte Verzeichnis: /opt/coreflow/autonomous/trigger
+2025-08-04T19:55:21Z | INFO     | 🛑 Watchdog beendet durch SIGINT
+2025-08-04T19:55:21Z | INFO     | 🔴 Watchdog gestoppt
+2025-08-04T19:58:47Z | INFO     | 🚀 CoreFlow Watchdog v2.1.0 gestartet
+2025-08-04T19:58:47Z | INFO     | Service-ID: CF-AUTONOMOUS-WD-001
+2025-08-04T19:58:47Z | INFO     | Beobachte Verzeichnis: /opt/coreflow/autonomous/trigger
+2025-08-04T20:17:59Z | INFO     | 🚀 CoreFlow Watchdog v2.1.0 gestartet
+2025-08-04T20:17:59Z | INFO     | Service-ID: CF-AUTONOMOUS-WD-001
+2025-08-04T20:17:59Z | INFO     | Beobachte Verzeichnis: /opt/coreflow/autonomous/trigger
+2025-08-04T20:21:05Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/testmodule.py
+2025-08-04T20:21:05Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/testmodule.py
+2025-08-04T20:21:05Z | INFO     | {"timestamp": "2025-08-04T18:21:05.437642Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/testmodule.py", "metadata": {}, "compressed": false}
+2025-08-04T20:21:05Z | INFO     | {"timestamp": "2025-08-04T18:21:05.437652Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/testmodule.py", "metadata": {}, "compressed": false}
+2025-08-04T20:21:05Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/testmodule.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 9, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-04T20:21:05Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x779ab74c5670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-04T20:21:05Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/testmodule.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 10, in <module>
+    from infra.envloader import load_env
+ModuleNotFoundError: No module named 'infra'
+
+2025-08-04T20:21:05Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ecf381056a0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-04T20:32:41Z | INFO     | 🚀 CoreFlow Watchdog v2.1.0 gestartet
+2025-08-04T20:32:41Z | INFO     | Service-ID: CF-AUTONOMOUS-WD-001
+2025-08-04T20:32:41Z | INFO     | Beobachte Verzeichnis: /opt/coreflow/autonomous/trigger
+2025-08-04T20:36:01Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/test_me.py
+2025-08-04T20:36:01Z | INFO     | {"timestamp": "2025-08-04T18:36:01.580470Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/test_me.py", "metadata": {}, "compressed": false}
+2025-08-04T20:36:01Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/test_me.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 9, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-04T20:36:01Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x75c235556120>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T20:17:00Z | INFO     | 🚀 CoreFlow Watchdog v2.1.0 gestartet
+2025-08-05T20:17:00Z | INFO     | Service-ID: CF-AUTONOMOUS-WD-001
+2025-08-05T20:17:00Z | INFO     | Beobachte Verzeichnis: /opt/coreflow/autonomous/trigger
+2025-08-05T22:18:11Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/test.py
+2025-08-05T22:18:11Z | INFO     | {"timestamp": "2025-08-05T20:18:11.539943Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/test.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:11Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/test.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:11Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec979700>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T22:18:11Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/test_me.py
+2025-08-05T22:18:11Z | INFO     | {"timestamp": "2025-08-05T20:18:11.963721Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/test_me.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:12Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/test_me.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:12Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec978ce0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T22:18:12Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/testmodule.py
+2025-08-05T22:18:12Z | INFO     | {"timestamp": "2025-08-05T20:18:12.286351Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/testmodule.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:12Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/testmodule.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:12Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec9795e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T22:18:12Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/test.py
+2025-08-05T22:18:12Z | INFO     | {"timestamp": "2025-08-05T20:18:12.620370Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/test.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:12Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/test.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:12Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec978e30>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T22:18:12Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/test_me.py
+2025-08-05T22:18:12Z | INFO     | {"timestamp": "2025-08-05T20:18:12.956057Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/test_me.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:13Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/test_me.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:13Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec979670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-08-05T22:18:13Z | INFO     | 📦 Änderung erkannt: /opt/coreflow/autonomous/trigger/testmodule.py
+2025-08-05T22:18:13Z | INFO     | {"timestamp": "2025-08-05T20:18:13.297636Z", "system": "AUTONOMOUS_WATCHDOG", "message": "file_modified|/opt/coreflow/autonomous/trigger/testmodule.py", "metadata": {}, "compressed": false}
+2025-08-05T22:18:13Z | ERROR    | ❌ Fehler bei /opt/coreflow/autonomous/trigger/testmodule.py: Exit 1: Traceback (most recent call last):
+  File "/opt/coreflow/autonomous/utils/gpt_fixer.py", line 20, in <module>
+    from openai import OpenAI
+ModuleNotFoundError: No module named 'openai'
+
+2025-08-05T22:18:13Z | WARNING  | ❗ Monitoring API Fehler: HTTPSConnectionPool(host='monitoring.coreflow.example', port=443): Max retries exceeded with url: /v1/events (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x77cbec978ce0>: Failed to establish a new connection: [Errno -2] Name or service not known'))

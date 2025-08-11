@@ -1,0 +1,10 @@
+[2025-08-03 14:36:24] 📦 Starte Setup des ENV-Zentralmoduls...
+[2025-08-03 14:36:24] 📂 Entpacke coreflow_env_central_module.zip...
+Archive:  coreflow_env_central_module.zip
+ extracting: encrypt_env.py          
+ extracting: envloader.py            
+ extracting: clean_old_env_files.sh  
+[2025-08-03 14:36:24] ⚠️ Datei fehlt: utils/encrypt_env.py
+[2025-08-03 14:36:24] ⚠️ Datei fehlt: utils/clean_old_env_files.sh
+[2025-08-03 14:36:24] ⚠️ Datei fehlt: infra/envloader.py
+[2025-08-03 14:36:24] ✅ Setup abgeschlossen. ENV-Modul einsatzbereit.

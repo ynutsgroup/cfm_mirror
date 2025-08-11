@@ -1,0 +1,4 @@
+=== Mirror Script gestartet am Mo 11. Aug 21:56:13 CEST 2025 ===
+Lade verschlüsselte .env via envloader...
+/opt/coreflow/audit/cfm_mirror.sh: line 33: CFM_MIRROR_REPO: Error: CFM_MIRROR_REPO nicht gesetzt
+=== Mirror Script beendet ===
