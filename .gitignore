@@ -1,0 +1,14 @@
+# CoreFlow Mirror ignore
+# Secrets / Klartext
+config/.env
+config/*.key
+config/encryption.key
+
+# Lokale Artefakte
+__pycache__/
+*.pyc
+*.tmp
+
+# Optional: große Logs weiterhin zulassen (Mirror-Zweck),
+# falls du sie ausschließen willst, entkommentieren:
+# logs/*.log
