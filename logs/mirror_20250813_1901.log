@@ -26,3 +26,21 @@ sending incremental file list
 ./
 mirror_20250813_1843.log
 mirror_20250813_1845.log
+mirror_20250813_1900.log
+mirror_20250813_1901.log
+update_20250813.log
+
+sent 5.242 bytes  received 116 bytes  10.716,00 bytes/sec
+total size is 88.827  speedup is 16,58
+Erstelle Commit...
+[main 39dce9d] Snapshot 20250813_1901 Digest: /opt/coreflow/logs/session_digest_COREFLOW_BASE_20250811_2108.md
+ 5 files changed, 59 insertions(+)
+ create mode 100644 logs/mirror_20250813_1845.log
+ create mode 100644 logs/mirror_20250813_1900.log
+ create mode 100644 logs/mirror_20250813_1901.log
+Push zu Remote-Repository...
+To https://github.com/ynutsgroup/cfm_mirror
+   5776ed8..39dce9d  main -> main
+branch 'main' set up to track 'origin/main'.
+SYNC_OK 20250813_1901
+=== Mirror Script beendet ===
