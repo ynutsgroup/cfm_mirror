@@ -1,4 +1,4 @@
-=== Mirror Script gestartet am Mi 13. Aug 18:43:11 CEST 2025 ===
+=== Mirror Script gestartet am Mi 13. Aug 19:01:48 CEST 2025 ===
 Lade verschlüsselte .env via envloader...
 Sync: Aktualisiere lokales Repository
 From https://github.com/ynutsgroup/cfm_mirror
@@ -12,9 +12,10 @@ sent 211 bytes  received 14 bytes  450,00 bytes/sec
 total size is 8.625  speedup is 38,33
 Sync: Config
 sending incremental file list
+./
 .env.enc
 
-sent 5.198 bytes  received 35 bytes  10.466,00 bytes/sec
+sent 5.201 bytes  received 38 bytes  10.478,00 bytes/sec
 total size is 5.514  speedup is 1,05
 Sync: Env
 '/opt/coreflow/config/.env.enc' -> '/opt/coreflow/gitmirror/config/.env.enc'
@@ -23,18 +24,5 @@ Sync: Audit
 Sync: Logs
 sending incremental file list
 ./
-mirror_20250813_1837.log
 mirror_20250813_1843.log
-
-sent 4.259 bytes  received 59 bytes  8.636,00 bytes/sec
-total size is 86.644  speedup is 20,07
-Erstelle Commit...
-[main 5776ed8] Snapshot 20250813_1843 Digest: /opt/coreflow/logs/session_digest_COREFLOW_BASE_20250811_2108.md
- 3 files changed, 47 insertions(+)
- create mode 100644 logs/mirror_20250813_1843.log
-Push zu Remote-Repository...
-To https://github.com/ynutsgroup/cfm_mirror
-   64532f9..5776ed8  main -> main
-branch 'main' set up to track 'origin/main'.
-SYNC_OK 20250813_1843
-=== Mirror Script beendet ===
+mirror_20250813_1845.log
