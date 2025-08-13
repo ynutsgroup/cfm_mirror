@@ -1,0 +1,7 @@
+=== Mirror Script gestartet am Mi 13. Aug 18:30:01 CEST 2025 ===
+Lade verschlüsselte .env via envloader...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'infra'
+/opt/coreflow/audit/cfm_mirror.sh: line 32: CFM_MIRROR_REPO: Error: CFM_MIRROR_REPO nicht gesetzt
+=== Mirror Script beendet ===

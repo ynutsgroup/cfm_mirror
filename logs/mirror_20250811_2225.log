@@ -63,3 +63,85 @@ mirror_20250811_2213.log
 mirror_20250811_2214.log
 mirror_20250811_2215.log
 mirror_20250811_2217.log
+mirror_20250811_2219.log
+mirror_20250811_2221.log
+mirror_20250811_2225.log
+session_digest_COREFLOW_BASE_20250811_2108.md
+setup_env_module.log
+supergit.log
+trigger_watchdog.log
+update_20250802.log
+update_20250803.log
+update_20250804.log
+update_20250807.log
+update_20250808.log
+update_20250809.log
+update_20250810.log
+update_20250811.log
+audit/
+audit/AUTONOMOUS_WATCHDOG_audit.log
+audit/COREFLOW_audit.log
+autofix/
+autofix/gpt_fix_20250806_193328.log
+autofix/gpt_fix_20250806_195656.log
+autofix/gpt_fix_20250806_200008.log
+autofix/stats_20250806_193328.json
+autofix/stats_20250806_195656.json
+autofix/stats_20250806_200008.json
+
+sent 80.662 bytes  received 823 bytes  162.970,00 bytes/sec
+total size is 76.993  speedup is 0,94
+Erstelle Commit...
+[master (root-commit) c1cbb38] Snapshot 20250811_2225 Digest: /opt/coreflow/logs/session_digest_COREFLOW_BASE_20250811_2108.md
+ 45 files changed, 1494 insertions(+)
+ create mode 100644 config/.env
+ create mode 100644 config/.env.enc
+ create mode 100755 config/autofix.cfg
+ create mode 100644 config/coreflow.env
+ create mode 100755 core/utils/__pycache__/audit_logger.cpython-312.pyc
+ create mode 100755 core/utils/audit_logger.py
+ create mode 100755 logs/audit/AUTONOMOUS_WATCHDOG_audit.log
+ create mode 100755 logs/audit/COREFLOW_audit.log
+ create mode 100644 logs/audit_export.jsonl
+ create mode 100644 logs/audit_report_20250811_1906.md
+ create mode 100644 logs/autofix/gpt_fix_20250806_193328.log
+ create mode 100644 logs/autofix/gpt_fix_20250806_195656.log
+ create mode 100644 logs/autofix/gpt_fix_20250806_200008.log
+ create mode 100644 logs/autofix/stats_20250806_193328.json
+ create mode 100644 logs/autofix/stats_20250806_195656.json
+ create mode 100644 logs/autofix/stats_20250806_200008.json
+ create mode 100755 logs/cron_cleanup.log
+ create mode 100755 logs/env_cleanup_20250803_143019.log
+ create mode 100644 logs/fixer.log
+ create mode 100755 logs/git_sync.log
+ create mode 100755 logs/hash_check.log
+ create mode 100755 logs/healthcheck.log
+ create mode 100755 logs/master_sync.log
+ create mode 100644 logs/mirror_20250811_2142.log
+ create mode 100644 logs/mirror_20250811_2156.log
+ create mode 100644 logs/mirror_20250811_2159.log
+ create mode 100644 logs/mirror_20250811_2213.log
+ create mode 100644 logs/mirror_20250811_2214.log
+ create mode 100644 logs/mirror_20250811_2215.log
+ create mode 100644 logs/mirror_20250811_2217.log
+ create mode 100644 logs/mirror_20250811_2219.log
+ create mode 100644 logs/mirror_20250811_2221.log
+ create mode 100644 logs/mirror_20250811_2225.log
+ create mode 100644 logs/session_digest_COREFLOW_BASE_20250811_2108.md
+ create mode 100755 logs/setup_env_module.log
+ create mode 100755 logs/supergit.log
+ create mode 100755 logs/trigger_watchdog.log
+ create mode 100755 logs/update_20250802.log
+ create mode 100755 logs/update_20250803.log
+ create mode 100755 logs/update_20250804.log
+ create mode 100644 logs/update_20250807.log
+ create mode 100644 logs/update_20250808.log
+ create mode 100644 logs/update_20250809.log
+ create mode 100644 logs/update_20250810.log
+ create mode 100644 logs/update_20250811.log
+Push zu Remote-Repository...
+Pushing to https://github.com/ynutsgroup/cfm_mirror
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ynutsgroup/cfm_mirror'
+FEHLER: Git-Push fehlgeschlagen
+=== Mirror Script beendet ===
